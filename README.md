@@ -1,4 +1,4 @@
-**Balaji Fast Food Sales Analysis**
+# **Balaji Fast Food Sales Analysis**
 
 # **About Project**
 
