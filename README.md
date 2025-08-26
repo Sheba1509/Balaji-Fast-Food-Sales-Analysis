@@ -1,115 +1,46 @@
-Project Title: BALAJI FAST FOOD SALES ANALYSIS
+**Balaji Fast Food Sales Analysis**
 
-About Dataset
+# **About Project**
+
+The Balaji Fast Food Sales Analysis Project is designed to study the restaurant’s transaction-level sales data and extract meaningful business insights. The dataset includes details such as order ID, date, item name, item type, item price, quantity, transaction amount, payment method, staff, time of sale, and profit.
+
+
+
+The project applies data analytics and visualization techniques to understand:
+
+*   How profit is distributed across different items.
+*   Which item categories (snacks, beverages, meals) contribute more to revenue and profit.
+*   The customer buying pattern (low-cost bulk items vs high-cost profitable items).
+*   How transaction types (cash vs online) affect sales trends.
+*   Daily and time-based sales performance (morning, afternoon, evening).
+*   Which are the top-selling items in terms of volume.
+*   Staff performance in handling transactions.
+*   The key drivers of profit for the business.
+
+By visualizing and analyzing these factors, the project provides actionable insights that can help Balaji Fast Food:
+
+
+*   Optimize menu design (highlighting profit-generating items).
+*   Improve marketing strategy (focus on peak sales periods).
+*   Manage staff performance effectively.
+*   Encourage digital payments for higher-value orders.
+*   Enhance overall customer experience while increasing profitability.
+
+# **About Dataset**
+**Dataset :** Balaji Fast Food Sales
+
+**Source :** Kaggle - Balaji Fast Food Sales Dataset
 
 Balaji Fast Food is a small fast-food restaurant located in India. The restaurant sells a variety of items such as snacks, main dishes and beverages. Transactions are recorded on a daily basis, capturing sales details of each item sold.
-The dataset represents the point-of-sale (POS) records of the restaurant over a certain time period. It includes details about items, sales amount, staff handling the order, and payment mode
 
-Dataset Summary
+The dataset represents the point-of-sale (POS) records of the restaurant over a certain time period. It includes details about items, sales amount, staff handling the order, and payment mode.
 
-Row Count: 1000
-
-Column: 10
-
-order_id : Unique identifier for each order
-
-date : Unique identifier for each order
-
-item_name : Name of the item sold
-
-item_type  : Category of the item
-
-item_price  : Price of a single unit of the item
-
-quantity  : Number of units sold in that transaction
-
-transaction_amount  : Total bill amount of the order
-
-transaction_type  : Payment mode (e.g., Cash, Online)
-
-received_by  : Staff member who handled the transaction
-
-time_of_sale : Time slot of the transaction (Morning, Afternoon, Evening, Night)
+*   Number of Rows : 1000
+*   Number of Columns : 10
+*   Columns Include : order_id,  date,  item_name,  item_type,  item_price,quantity,  transaction_amount,  transaction_type,  received_by,  time_of_sale
 
 
 
-Project Steps and Objectives: 
+This dataset can help analyze:
 
-1)Data Loading and Initial Overview
-
-Read the HOSPITAL PATIENT RECORDS data from the CSV file into a pandas DataFrame.                   
-
-Print the first few rows of the dataset to get an overview of the data. 
-
-Obtain the number of rows and columns in the dataset. 
-
-Get a concise summary of the dataset, including the data types and non-null values. 
-
-Generate descriptive statistics for numerical columns. 
-
-Print the Data types of each columns.
-
-2)Data Pre-Processing
-
-Find and count the null datas in the dataset.
-
-Handling Missing Values with mode
-
-Removing duplicates
-
-Convert date format to YYY-MM-DD
-
-To insert "profit" column based on "transaction_amount" column. 
-
-3)Exploratory Data Analysis (EDA) & Visualization
-
-Univariate Visualization - 
-
-
-a)Histogram for Profit Distribution
-
-
-b)Box Plot for Profit by Item Type
-
-
-c)Pie Chart for Transaction Type Distribution
-
-Bivariate Visualization - 
-
-
-a)Scatter plot for Item Price vs Quantity
-
-
-b)Correlation Heatmap Between Item Price, Quantity, Transaction Amount and Profit
-
-Multivariate Visualization - 
-
-
-a)Pair Plot for Item Price, Quantity, Transaction Amount and Profit
-
-
-b)Line Chart for Daily Sales Trend
-
-
-Aggregated Data Visualization - 
-
-
-a) Bar Plot for Top 10 Items by Quantity
-
-
-b) Count Plot for Number of Transactions by Staff
-
-
-c)  Violin Plot for Transaction Amount by Transaction Type
-
-
-d) Bar Plot for Total Profit by Time of Sale
-
-
-e) KDE Plot for Profit Distribution
-
-
-f)  Skewness Analysis for Profit
-
-
-4)Final Busiess Insights
+Balaji Fast Food Sales Analysis helps the restaurant understand customers, optimize menu, improve staff efficiency, and maximize profit, turning raw sales data into actionable business insights.
