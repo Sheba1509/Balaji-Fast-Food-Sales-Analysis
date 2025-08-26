@@ -31,6 +31,8 @@ Column: 10
 
 time_of_sale : Time slot of the transaction (Morning, Afternoon, Evening, Night)
 
+
+
 Project Steps and Objectives: 
 
 1)Data Loading and Initial Overview
