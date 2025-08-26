@@ -6,7 +6,9 @@ Balaji Fast Food is a small fast-food restaurant located in India. The restauran
 The dataset represents the point-of-sale (POS) records of the restaurant over a certain time period. It includes details about items, sales amount, staff handling the order, and payment mode
 
 Dataset Summary
+
 Row Count: 1000
+
 Column: 10
 
 order_id : Unique identifier for each order
